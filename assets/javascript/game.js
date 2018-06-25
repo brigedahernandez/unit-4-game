@@ -27,7 +27,22 @@ $("document").ready(function(){
 
 //update score counter
 
-//check if scores are equal, check to see if uesr score is higher/lower than computer score (which would mean the user loses the game)
+//check if scores are equal, check to see if user score is higher/lower than computer score (which would mean the user loses the game)
+
+var userScore = [] 
+
+while (userScore < endGoal) {
+    for (i =0; i<endGoal; i++){
+        userScore ++
+    }
+}
+
+if (userScore === endGoal){
+    alert("You Win!")
+}
+else if (userScore != endGoal){
+    alert("Sorry, try again!")
+}
 
 //win or lose, game resets
 
