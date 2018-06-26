@@ -1,13 +1,19 @@
+
 h1 {
 font-family: 'Righteous', cursive;
 }
 
+/*NOT WORKING FOR SOME REASON*/
+body {
+    background-image: url("./assets/images/lashes/lashes.png");
+}
+
 
 .crystal {
-width: 200px;
+width: 100px;
 border-style: solid;
 border-width: 2px;
-height: 200px;
+height: 100px;
 
 }
 
