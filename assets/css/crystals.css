@@ -6,6 +6,16 @@ height: 200px;
 
 }
 
+.end-goal {
+color: fuchsia;
+font-size: 24px;
+}
+
+.user-score {
+color: #000000;
+font-size: 24px;
+}
+
 #crystalone {
 background-color: red;    
 }
