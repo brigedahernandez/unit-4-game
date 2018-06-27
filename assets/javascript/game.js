@@ -54,6 +54,7 @@ $("document").ready(function () {
     })
 
     $(".end-goal").text(endGoal);
+    $(".user-score").text(userScore);
 
 
 
