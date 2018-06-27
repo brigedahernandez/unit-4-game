@@ -3,17 +3,16 @@ h1 {
 font-family: 'Righteous', cursive;
 }
 
-/*NOT WORKING FOR SOME REASON*/
 body {
-    background-image: url("./assets/images/lashes/lashes.png");
+    background-image: url("../images/lashes/lashes.png");
 }
 
 
 .crystal {
-width: 100px;
+width: 200px;
 border-style: solid;
 border-width: 2px;
-height: 100px;
+height: 200px;
 
 }
 
@@ -28,18 +27,30 @@ font-size: 24px;
 }
 
 #crystalone {
-background-color: red;    
+    
+    background-color: red;
+background-image: url("../images/pinkcrystal.png"); 
+background-position: center   
 }
 
 #crystaltwo {
-    background-color: blue;    
+    
+    background-color: blue;
+    background-image: url("../images/bluecrystal.png"); 
+    background-position: center      
     }
 
 #crystalthree {
+    
         background-color: palevioletred;    
+        background-image: url("../images/greencrystal.png"); 
+        background-position: center  
         }
 
 #crystalfour {
+    
     background-color: greenyellow;
+    background-image: url("../images/prettycrystal.png"); 
+    background-position: center  
 }
     

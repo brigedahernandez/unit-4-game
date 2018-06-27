@@ -1,4 +1,4 @@
-alert("hello!")
+
 
 //set an end goal value by computer selecting a random number
 var endGoal = getRandomArbitrary(19, 120)
@@ -13,10 +13,16 @@ var crystaltwo = getRandomArbitrary(1, 12)
 var crystalthree = getRandomArbitrary(1, 12)
 var crystalfour = getRandomArbitrary(1, 12)
 
+
 $("#crystalone").data("count", crystalone);
 $("#crystaltwo").data("count", crystaltwo);
 $("#crystalthree").data("count", crystalthree);
 $("#crystalfour").data("count", crystalfour);
+
+//assign variables for wins and losses
+var wins = 0
+var losses = 0
+
 //event listener for user click
 $("document").ready(function () {
     var userScore = 0
@@ -37,6 +43,8 @@ $("document").ready(function () {
             userScore = 0
             $(".user-score").text(userScore);
             $(".end-goal").text(endGoal);
+            $(".winning").text(wins)
+            $(".notwinning").text(losses)
         } else if (userScore > endGoal) {
             losses++
             alert("Sorry, try again.")
@@ -48,6 +56,8 @@ $("document").ready(function () {
             userScore = 0
             $(".user-score").text(userScore);
             $(".end-goal").text(endGoal);
+            $(".winning").text(wins)
+            $(".notwinning").text(losses)
 
         }
 
@@ -55,31 +65,16 @@ $("document").ready(function () {
 
     $(".end-goal").text(endGoal);
     $(".user-score").text(userScore);
+    $(".winning").text(wins)
+    $(".notwinning").text(losses)
 
 
 
 
-    //update score counter
-
-    //check if scores are equal, check to see if user score is higher than computer score (which would mean the user loses the game)
 
 
-    //
-
-    // //while (userScore < endGoal) {
-    //     for (i = 0; i < endGoal; i++) {
-    //         userScore++
-    //     }
-    // }
-
-    var wins = 0
-    var losses = 0
-    //win or lose, game resets
-
-
-
-
-    //after reset, values are reassigned 
+    
+ 
 
 
 })
