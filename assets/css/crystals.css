@@ -8,6 +8,9 @@ body {
 }
 
 
+
+
+
 .crystal {
 width: 200px;
 border-style: solid;
@@ -18,37 +21,46 @@ height: 200px;
 
 .end-goal {
 color: fuchsia;
-font-size: 24px;
+font-size: 30px;
 }
 
 .user-score {
+    float: right;
 color: #000000;
-font-size: 24px;
+font-size: 30px;
+}
+
+.winning {
+    float:right;
+}
+
+.notwinning {
+    float:right
 }
 
 #crystalone {
-    
+    float:left;
     background-color: red;
 background-image: url("../images/pinkcrystal.png"); 
 background-position: center   
 }
 
 #crystaltwo {
-    
+    float:left;
     background-color: blue;
     background-image: url("../images/bluecrystal.png"); 
     background-position: center      
     }
 
 #crystalthree {
-    
+    float:left;
         background-color: palevioletred;    
         background-image: url("../images/greencrystal.png"); 
         background-position: center  
         }
 
 #crystalfour {
-    
+    float:left;
     background-color: greenyellow;
     background-image: url("../images/prettycrystal.png"); 
     background-position: center  
