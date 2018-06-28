@@ -1,46 +1,59 @@
 <html>
-    <head>
-    <link rel="stylesheet" href="./assets/css/crystals.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">  
-    </head>
-    <body>
-    
+
+<head>
+    <link rel="stylesheet" href="./assets/css/crystals.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+
     <h1> The Crystal Game</h1>
 
-    Hello! Welcome to the greatest game you'll ever play. <br>
-    The pink number below is what you want your score to add up to. <br>
-    The black number is your current total. <br>
-    Each crystal has an assigned value. Click the different crystals to add to your score. <br>
-    If your score matches the number in pink, you win! If you go above it, you lose. <br>
-    Kind of like blackjack.<br>
-    Have fun! 
+    Hello! Welcome to the greatest game you'll ever play.
+    <br> The pink number below is what you want your score to add up to.
+    <br> The black number is your current total.
+    <br> Each crystal has an assigned value. Click the different crystals to add to your score.
+    <br> If your score matches the number in pink, you win! If you go above it, you lose.
+    <br> Kind of like blackjack.
+    <br> Have fun!
     <br>
-<br>
+    <br>
     <div class="end-goal">
 
 
     </div>
 
-        <div class="crystal" id="crystalone"></div>
-        <div class="crystal" id="crystaltwo"></div>
-        <div class="crystal" id="crystalthree"></div>
-        <div class="crystal" id="crystalfour"></div>
-     
+    <div class="crystal" id="crystalone"></div>
+    <div class="crystal" id="crystaltwo"></div>
+    <div class="crystal" id="crystalthree"></div>
+    <div class="crystal" id="crystalfour"></div>
+
     <div class="user-score">
 
-        
+
     </div>
-<br> <br>
-    <div id="winning">Wins:</div>
-    <br>
-    <div id="notwinning">Losses:</div>
-
-        <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-            <script type="text/javascript" src="./assets/javascript/game.js"></script>
-
-    </body>
     
+    <br>
+    <br>
+    <div id="win-loss-tracker">
+    <div>
+        Wins:
+
+        <span id="winning"></span>
+    </div>
+    <br>
+    <div>
+     Losses:
+    <span id="notwinning"></span>
+    </div>
+</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+
 </html>
