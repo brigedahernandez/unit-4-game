@@ -44,7 +44,8 @@ $("document").ready(function () {
             $(".user-score").text(userScore);
             $(".end-goal").text(endGoal);
             $(".winning").text(wins)
-            $(".notwinning").text(losses)
+            $("#notwinning").text(losses)
+            $("#winning").html("<h3>" + wins + "</h3>");
         } else if (userScore > endGoal) {
             losses++
             alert("Sorry, try again.")
@@ -56,8 +57,9 @@ $("document").ready(function () {
             userScore = 0
             $(".user-score").text(userScore);
             $(".end-goal").text(endGoal);
-            $(".winning").text(wins)
-            $(".notwinning").text(losses)
+            $("#winning").text(wins, "Wins")
+            $("#notwinning").text(losses, "Losses")
+
 
         }
 

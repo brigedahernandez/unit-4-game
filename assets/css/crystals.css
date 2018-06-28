@@ -25,17 +25,17 @@ font-size: 30px;
 }
 
 .user-score {
-    float: right;
+    clear: left;
 color: #000000;
 font-size: 30px;
 }
 
-.winning {
-    float:right;
+#winning {
+    
 }
 
-.notwinning {
-    float:right
+#notwinning {
+    
 }
 
 #crystalone {
